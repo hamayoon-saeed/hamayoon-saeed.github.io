@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    .nav {
+        background-color: white ;
+        border: 2px solid black;
+    }
+    h3 , h1{
+        text-align: center;
+       display: block;
+    }
+    .invert {
+        transform: rotate(180deg);
+    }
+    img {
+     width: 30px;
+    }
+    input {
+        width: 80%;
+        padding-top: 20px;
+       font-size: large;
+    }
+    button {
+        width: 80px;
+    }
+      .content .row > div  {
+        background-color: gray;
+        border:  2px solid black;
+        
+    }
+     .box {
+        background-color: red;
+        display: block;
+        padding: 15px ;
+        border: 1px solid black;
+        position: relative;
+        float: right;
+        padding: 14px;
+    } 
+    p {
+        display: inline-block;
+    }
+    footer {
+        border: 2px solid black;
+        height: 15px;
+        background-color: gray;
+        position: relative;
+        margin-top: 15%;
+        width: 100%;
+    }
+   
